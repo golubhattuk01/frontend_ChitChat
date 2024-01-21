@@ -1,0 +1,53 @@
+p{
+    color: red;
+}
+.post_img
+{
+    margin: 5px 0px;
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid red; */
+}
+.post_card
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+   
+    gap: 10px;
+
+    /* position: relative; */
+}
+.post_item
+{
+    margin-top: 5px;
+    /* width: 250px; */
+    height: 250px;
+    width: 100%;
+    
+}
+.info
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.infoPic
+{
+    margin: 10px 5px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+.outer
+{background: white;
+
+    margin: 80px 40px;
+    border: 1px solid black;
+}
+.userid
+{
+    display: flex;
+}
