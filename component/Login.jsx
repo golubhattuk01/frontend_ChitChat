@@ -21,20 +21,17 @@ const Login = () => {
       });
 
       if (response.data.username === usernameRef.current.value) {
-        console.log("Response is:", response.data);
         setIsLogin({
           bool: true,
           obj: response.data,
         });
         history("/profile");
       } else {
-        console.log("Response is:", response.data);
         setError(true);
       }
     } catch (error) {
       console.error("Error during login:", error);
       console.log("Error response:", error.response);
-      // Handle the error or set an error state here
     }
   };
 
