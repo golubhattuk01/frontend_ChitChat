@@ -1,5 +1,5 @@
 import PostBox from "./PostBox";
-import "../styles/postBox.css";
+import "../styles/postbox.css";
 const PostLoad = ({ Posts, user }) => {
   if (!Posts || Posts.length === 0) {
     return <h1>No Post Available</h1>;
