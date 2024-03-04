@@ -1,5 +1,5 @@
 import FeedBox from "./FeedBox";
-import "../styles/postBox.css";
+import "../styles/postbox.css";
 import { useState, useEffect } from "react";
 import axios from "axios";
 const FeedLoad = () => {
